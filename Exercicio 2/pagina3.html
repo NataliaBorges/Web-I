@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados da Aluna</title>
+</head>
+<body>
+    <h1>Informações Cadastrais</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label>
+                    Nome:
+                    <input type="text" name="nome" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Data de Nascimento:
+                    <input type="date" name="data" size="30" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    E-mail:
+                    <input type="email" name="email" size="30"required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Telefone: 
+                    <input type="tel" name="telefone" placeholder="(00) 0000-0000" maxlength="14"
+                    size="14" required>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend required>
+            <p>
+                <label>
+                    <input type="radio" name="sexo" value="Feminino"> Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="Masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="Outro"> Outro
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label>
+                    Rua:
+                    <input type="text" name="rua" size="30" required>
+                </label>
+                <label>
+                    Número: 
+                    <input type="number" name="numero" min="0"required>
+                </label>
+                <label>
+                    Bairro: 
+                    <input type="text" name="bairro" size="30" required>
+                </label>
+                <p>
+                    <Label>
+                        Estado: 
+                        <select name="estado" required >
+                            <option value disabled selected="--Escolha uma opção--">--Escolha uma opção--</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="ES">Espírito Santo</option>
+                        </select>
+                    </Label>
+                    <label>
+                        Cidade:
+                        <input type="text" name="cidade" size="30" required>
+                    </label>
+                </p>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Área(s) de Interesse</legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="area_de_interesse" value="Computação"> Computação
+                </label>
+                <label>
+                    <input type="checkbox" name="area_de_interesse" value="Engenharia"> Engenharia
+                </label>
+                <label>
+                    <input type="checkbox" name="area_de_interesse" value="História"> História
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Cadastro</legend>
+            <p>
+                <label>
+                    Usuário:
+                    <input type="text" name="usuario">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Senha: 
+                    <input type="password" name="senha">
+                </label>
+            </p>
+        </fieldset>
+        
+        <p>
+            <input type="submit" value="Enviar Dados">
+            <input type="reset" value="Redefinir Dados">
+        </p>
+    </form>
+    <P>
+        <a href="paginaprincipal.html">Voltar para a tela principal</a>
+    </P>
+</body>
+</html>
