@@ -1,0 +1,49 @@
+
+h1{
+    background-color:#3CB371;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    font: bold;
+    font-size: 50px;
+    text-align: center;
+}
+section h1{
+    background-color:#aee0d8;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+    font:bolder;
+    text-align: center;
+}
+aside{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    background-color: #aee0d8;
+    list-style-type: none;
+    padding: 3px;
+    margin-right: 20px;
+    margin-left: 2px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(3, 53, 6);
+    color: white;
+}
+p{
+    text-indent: 20px;
+    text-decoration: dotted;
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+}
+img{
+    padding: 10px;
+    float: left;
+}

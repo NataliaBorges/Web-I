@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/Style.css">
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+    <head>
+        <p class="banana">
+            <a href="../HomePage/homePage.html">Voltar</a>
+        </p>
+    </head>
+        <h1>Informações para contato</h1>
+    <div>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label>
+                    Nome:
+                    <input type="text" name="nome" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Data de Nascimento:
+                    <input type="date" name="data" size="30" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    E-mail:
+                    <input type="email" name="email" size="30"required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Telefone: 
+                    <input type="tel" name="telefone" placeholder="(00) 0000-0000" maxlength="14"
+                    size="14" required>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label>
+                    Rua:
+                    <input type="text" name="rua" size="30" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Número: 
+                    <input type="number" name="numero" min="0"required>
+                </label>
+            </p>
+            <p class="endereco">
+                <label>
+                    Bairro: 
+                    <input type="text" name="bairro" size="30" required>
+                </label>
+                <p>
+                    <Label>
+                        Estado: 
+                        <select name="estado" required >
+                            <option value disabled selected="--Escolha uma opção--">--Escolha uma opção--</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="ES">Espírito Santo</option>
+                        </select>
+                    </Label>
+                    <label>
+                        Cidade:
+                        <input type="text" name="cidade" size="30" required>
+                    </label>
+                </p>
+            </p>
+        </fieldset>
+        <p class="contato">
+            Entraremos em Contato
+        </p>
+        <p class="buttom">
+            <input type="submit" value="Enviar Dados">
+            <input type="reset" value="Redefinir Dados">
+        </p>
+    </form>
+    </div>
+    <footer>
+        <p>
+            Criado por Natalia Borges
+        </p>
+    </footer>
+</body>
+</html>

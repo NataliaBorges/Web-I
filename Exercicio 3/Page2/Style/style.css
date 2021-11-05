@@ -1,0 +1,63 @@
+h1{
+    background-color:#3CB371;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    font: bold;
+    font-size: 50px;
+    text-align: center;
+}
+section h3{
+    background-color:#aee0d8;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+    font:bolder;
+    text-align: center;
+}
+.batatinha{
+    float: left;
+    width: 50%;
+}
+.batatinha p{
+    padding-left: 40px;
+    padding-right: 10px;
+}
+li{
+    margin-right: 20px;
+    background-color: #aee0d8;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.clear{
+    clear:both;
+}
+table{
+    margin-top: 50px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+th{
+    color: white;
+    background-color:darkgreen;
+}
+td{
+    padding: 10px;
+    background-color: darkseagreen;
+}
+img{
+    margin-top: 150px;
+}
+caption{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.banana{
+    font-size: 20px;
+    margin-left: 20px;
+}
